@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DEXER X</title>
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			transition: 0.5s;
+		}
+		.one-line {
+			text-align: center;
+		}
+		img {
+			width: 300px;
+		}
+		.login {
+			padding: 10px 20px;
+			background-color: red;
+		}
+		.login1 {
+			padding: 10px 85px;
+			background-color: transparent;
+			border: solid 2px blue;
+			border-radius: 10px;
+		}
+		a {
+			text-decoration: none;
+		}
+		  .the-links {
+            margin-bottom: 40px;
+        }
+        .login2, .login3, .login4 {
+            padding: 13px 50px;
+            background-color: lightgrey;
+            border-radius: 10px;
+            color: black;
+            display: block; 
+            margin: 0 auto; 
+            width: fit-content; 
+        }
+		.sign-up {
+			margin-top: 30px;
+		}
+		.login4 {
+			padding: 10px 80px;
+			background-color: blue;
+			border-radius: 10px;
+			color: white;
+			font-weight: bold;
+		}
+
+		.line {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 40px;
+			max-width: 220px;
+			margin: 0 auto 40px auto; 		}
+
+		.line-segment {
+			flex: 1;
+			height: 1px;
+			background-color: grey;
+			margin: 0 10px; 
+		}
+		   .apple {
+            width: 35px;
+            padding-right: 10px;
+        }
+        .google {
+            width: 15px;
+            padding-right: 10px;
+        }
+
+
+		@media (max-width: 768px) {
+			.line-segment {
+				margin: 0 5px; 
+			}
+		}
+	</style>
+</head>
+<body>
+
+<div class="one-line">
+	<img src="sign-img.jpg" alt="Sign In Image">
+
+	<div class="the-links">
+		<a class="login1" href="#">Login with E-mail</a>
+	</div>
+	
+ <div class="the-links">
+            <a class="login2" href="#"><img class="apple" src="apple.png"> Continue with Apple</a>
+        </div>
+        <div class="the-links">
+            <a class="login3" href="#"><img class="google" src="google.png"> Continue with Google</a>
+        </div>
+
+
+	<p class="line">
+		<span class="line-segment"></span>
+		<span class="span">OR</span>
+		<span class="line-segment"></span>
+	</p>
+
+	<div class="sign-up">
+		<a class="login4" href="sign-up.html">Sign up</a>
+	</div>
+</div>
+
+</body>
+</html>

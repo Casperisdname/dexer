@@ -1,0 +1,70 @@
+body{
+	padding: 0;
+	margin: 0;
+	transition: 0.5s;
+	
+}
+.ftext{
+	font-weight: bold;
+}
+.sign{
+	margin-top: 30px;
+	
+	text-align: center;
+}
+.boxes{
+
+}
+p{
+	margin-bottom: 0;
+
+}
+.input{
+	margin-top: 0px;
+	border: none;
+	padding: 10px 110px;
+	background-color: lightgrey;
+	border-radius: 5px;
+}
+.sign-up{
+	margin-top: 40px;
+	
+}
+a{
+	text-decoration: none;
+}
+.login4{
+	padding: 10px 170px;
+	background-color:  lightblue;
+	border-radius: 10px;
+	color: white;
+	font-weight:bold ;
+}
+.input1{
+	margin-top: 20px;
+}
+.text{
+	margin-top: 20px;
+}
+.text a{
+	color: lightblue;
+}
+.fullname{
+	padding-right: 320px;
+
+}
+.username{
+	padding-right: 320px;
+}
+.email{
+	padding-right: 340px;
+}
+.mobile{
+	padding-right: 320px;
+}
+.password{
+	padding-right: 320px;
+}
+.password1{
+	padding-right: 260px;
+}

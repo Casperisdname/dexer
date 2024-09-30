@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0;
+        }
+        .all {
+            text-align: center;
+        }
+        .para {
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .box {
+            padding: 13px 25px;
+            border: none;
+            border-radius: 5px;
+            background-color: lightgrey;
+            color: black;
+            width: 250px; 
+        }
+        .input {
+            margin-bottom: 20px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .fpassword {
+            color: grey;
+            font-size: 14px;
+        }
+        .the-links {
+            margin-bottom: 40px;
+        }
+        .login2, .login3, .login4 {
+            padding: 13px 50px;
+            background-color: lightgrey;
+            border-radius: 10px;
+            color: black;
+            display: block; 
+            margin: 0 auto; 
+            width: fit-content; 
+        }
+        .login4 {
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+        }
+        .line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.line-segment {
+    flex: 1;
+    height: 1px; 
+    background-color: grey; 
+    margin: 0 10px; 
+}
+
+        .apple {
+            width: 35px;
+            padding-right: 10px;
+        }
+        .google {
+            width: 15px;
+            padding-right: 10px;
+        }
+        .alone {
+            margin-top: 40px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <p class="para">Log into your account</p>
+        <div class="input">
+            <input class="box" type="text" placeholder="E-mail"> 
+        </div>
+        <div>
+            <input class="box" type="password" placeholder="Password">
+        </div>
+        <p>
+            <a class="fpassword" href="#">Forgot password</a>		
+        </p>
+       <p class="line">
+    <span class="line-segment"></span>
+    <span class="span">OR</span>
+    <span class="line-segment"></span>
+</p>
+
+        <div class="the-links">
+            <a class="login2" href="#"><img class="apple" src="apple.png"> Continue with Apple</a>
+        </div>
+        <div class="the-links">
+            <a class="login3" href="#"><img class="google" src="google.png"> Continue with Google</a>
+        </div>
+        <div class="alone">
+            <p>Don't have an account? <a href="sign-up.html">Register</a></p>
+        </div>
+        <div class="sign-up">
+            <a class="login4" href="#">Login</a>
+        </div>
+    </div>
+</body>
+</html>
